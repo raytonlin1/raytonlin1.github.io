@@ -22,12 +22,15 @@ p {
     margin-bottom: 30px;
 }
 #projects {
+    justify-content: center;
     text-align: center;
 }
 #profiles {
+    justify-content: center;
     text-align: center;
 }
 #description {
+    justify-content: center;
     text-align: center;
 }
 .logo {

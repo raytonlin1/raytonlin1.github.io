@@ -1,7 +1,6 @@
 body {
     background-color: #f5da90;
 }
-
 h1 {
       color: black;
       font-size: 25px;
@@ -12,11 +11,24 @@ p {
       font-size: 12px;
       font-family: Times New Roman;
     }
+.title {
+    font-family: Times New Roman;
+    font-size: 35px;
+    color: black;
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
 #projects {
+    text-align: center;
 }
 #profiles {
+    text-align: center;
 }
 #description {
+    text-align: center;
 }
 .logo {
     width: 50px;

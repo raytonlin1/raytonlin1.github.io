@@ -1,0 +1,29 @@
+body {
+    background-color: #f5da90;
+}
+
+h1 {
+      color: black;
+      font-size: 25px;
+      font-family: Arial;
+    }
+p {
+      color: purple;
+      font-size: 12px;
+      font-family: Times New Roman;
+    }
+#projects {
+}
+#profiles {
+}
+#description {
+}
+.logo {
+    width: 50px;
+    margin: 5px;
+    transition: all 0.5s;
+}
+
+.logo:hover {
+    width: 60px;
+}

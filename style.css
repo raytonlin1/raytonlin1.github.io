@@ -27,16 +27,22 @@ li {
     margin-bottom: 30px;
 }
 #projects {
+    display: flex;
     justify-content: center;
     text-align: center;
+    align-items: flex-end;
 }
 #profiles {
+    display: flex;
     justify-content: center;
     text-align: center;
+    align-items: flex-end;
 }
 #description {
+    display: flex;
     justify-content: center;
     text-align: center;
+    align-items: flex-end;
 }
 .logo {
     width: 50px;

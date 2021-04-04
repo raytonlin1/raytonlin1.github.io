@@ -31,18 +31,21 @@ li {
     justify-content: center;
     text-align: center;
     align-items: flex-end;
+    margin-bottom: 30px;
 }
 #profiles {
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: flex-end;
+    margin-bottom: 30px;
 }
 #description {
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: flex-end;
+    margin-bottom: 30px;
 }
 .logo {
     width: 50px;

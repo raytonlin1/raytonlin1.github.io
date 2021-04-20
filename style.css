@@ -9,15 +9,15 @@ h1 {
 p {
       color: purple;
       font-size: 12px;
-      font-family: TimesNewRoman;
+      font-family: "Times New Roman", Times, serif;
     }
 li {
       color: red;
       font-size: 15px;
-      font-family: TimesNewRoman;
+      font-family: "Times New Roman", Times, serif;
     }
 .title {
-    font-family: TimesNewRoman;
+    font-family: "Times New Roman", Times, serif;
     font-size: 35px;
     color: black;
     display: flex;

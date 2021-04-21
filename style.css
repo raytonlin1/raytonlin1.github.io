@@ -1,59 +1,42 @@
-body {
-    background-color: #f5da90;
+.bodycss {
+    background-color: burlywood;
     text-align: center;
 }
-h1 {
-      color: black;
-      font-size: 25px;
-      font-family: Arial;
-    }
-p {
-      color: purple;
-      font-size: 12px;
-      font-family: "Times New Roman", Times, serif;
-    }
-li {
-      color: red;
-      font-size: 15px;
-      font-family: "Times New Roman", Times, serif;
-    }
-.title {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 35px;
-    color: black;
-    display: flex;
-    height: 150px;
-    justify-content: center;
-    align-items: flex-end;
-    margin-bottom: 30px;
+
+ul {
+    text-align: left;
 }
-#projects {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: flex-end;
-    margin-bottom: 30px;
+
+.ulcss {
+    margin-left: 700px;
 }
+
+.Facts {
+    color: blue;
+}
+
+.Interests {
+    color: red;
+}
+
+.logo {
+    width: 60px;
+    margin-left: 5px;
+    transition: all 0.5s;
+}
+
 #profiles {
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: flex-end;
-    margin-bottom: 30px;
-}
-#description {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: flex-end;
-    margin-bottom: 30px;
-}
-.logo {
-    width: 50px;
-    margin: 5px;
-    transition: all 0.5s;
 }
 
 .logo:hover {
-    width: 60px;
+    width: 70px;
+}
+
+p {
+    color: purple;
+    font-family: "Times New Roman", Times, serif;
 }

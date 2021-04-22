@@ -3,6 +3,63 @@
     text-align: center;
 }
 
+header {
+    background-color: maroon;
+    padding: 50px 50px 50px 50px;
+    min-height: 70px;
+    border-top: brown 10px solid;
+    border-bottom: brown 10px solid;
+    transition: all 0.5s;
+}
+
+.topleft {
+    color: black;
+    background-color: darkorange;
+    font-size: 15px; 
+    text-align: center;
+    padding: 5px;
+    float:left;
+    border: black 7px solid;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px;
+    border: black 2px solid;
+    background-color: rosybrown;
+    transition: all 0.5s;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 10px 0 10px;
+}
+
+header nav {
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    background-color: orange;
+}
+
+header .highlight, header .current a{
+    font-weight: bold;
+}
+
+header a:hover {
+    color: brown;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 ul {
     text-align: left;
 }
@@ -13,16 +70,44 @@ ul {
 
 .Facts {
     color: blue;
+    font-weight: bold;
+    background-color: cadetblue;
+    border: brown 10px solid;
 }
 
 .Interests {
-    color: red;
+    color: maroon;
+    font-weight: bold;
+    background-color: cadetblue;
+    border: brown 10px solid;
 }
 
 .logo {
     width: 60px;
     margin-left: 5px;
     transition: all 0.5s;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+#raytondesc {
+    color: blue;
+    background-color: gold;
+    border: brown 10px solid;
+}
+
+#mydescription {
+    border: brown 10px solid;
+}
+
+#forrecruiters {
+    background-color: rgb(57, 201, 201);
 }
 
 #profiles {
@@ -32,11 +117,18 @@ ul {
     align-items: flex-end;
 }
 
+#top {
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(231, 116, 116);
+    border: brown 10px solid;
+}
+
 .logo:hover {
     width: 70px;
 }
 
 p {
-    color: purple;
+    color: blue;
     font-family: "Times New Roman", Times, serif;
 }

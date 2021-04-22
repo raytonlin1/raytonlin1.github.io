@@ -11,30 +11,67 @@
 </head>
 <!-- Then with the body. -->
 <body class="bodycss">
-    <h1 id="top"> This is Rayton Lin's website.</h1>
-    <p> This is a test of my HTML knowledge.</p>
-    <ul>
-        <li> <a href="index.html">Index (Main)</a> </li>
-        <li> <a href="about.html">About Me</a> </li>
-    </ul>
-
-    
-
-    <h1 style = "text-align:center">My Projects, Work and Profile</h1>
-    <div class="description" style = "text-align:center"> To see a description of my work, see my
-        <a href="https://www.keepandshare.com/doc25/111572/r-sum-university-1b-co-op-waterloo-resume-2-pdf-42k?dn=y&dnad=y" target="_blank">resume</a>.
-        <h3 style = "text-align:centre">Work So Far</h3>
-        <ul style="margin-left: 890px">
-        <li >None yet!</li>
-        </ul>
+    <header>
+        <div class="container">
+            <div class="topleft">
+                <h1> Rayton Lin </h1>
+            </div>
+            <nav> 
+                <ul>
+                    <li> <a href="index.html">Home</a> </li>
+                    <li> <a href="about.html">About Me</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="top">
+        <h1> This is Rayton Lin's website.</h1>
+        <p style="color: purple;"> This is a test of my HTML knowledge.</p>
     </div>
-    <div id='profiles'>
-        <p style = "text-align:center"> Look at my profiles on other websites here: </p>
-              <div>
-                  <a href='https://github.com/raytonlin1'><img class='logo' src='assets/imgs/github.png'></a>
-                  <a href='https://dmoj.ca/user/raytonlin1'><img class='logo' src='assets/imgs/dmoj.png'></a>
-              </div>
-      </div>
+    <section id="mydescription">
+        <div class="container" style="text-align:center">
+            <div id="raytondesc"> 
+                <h1> Rayton Lin's Description</h1>
+                Rayton Lin is a software developer and programmer <br> 
+                with knowledge of programming algorithms <br>
+                and web development. <br>
+                Rayton knows Python, C++, HTML and CSS proficiently. <br>
+                If you want to hire Rayton Lin as a software developer, <br> 
+                look at his resume and email him.
+            </div>
+        </div>
+    </section>
+
+    <section id="forrecruiters"> 
+        <div class="container">
+            <h1 style = "text-align:center">My Projects, Work and Profiles</h1>
+            <div class="description" style = "text-align:center"> To see a description of my work, see my
+                <a href="https://www.keepandshare.com/doc25/111572/r-sum-university-1b-co-op-waterloo-resume-2-pdf-42k?dn=y&dnad=y" target="_blank">resume</a>.
+                <h3 style = "text-align:centre">Work So Far</h3>
+                <ul style="margin-left: 890px">
+                <li >None yet!</li>
+                </ul>
+            </div>
+            <div id='profiles'>
+                <p style = "text-align:center"> 
+                    Look at my profiles on other websites here: 
+                </p>
+                <div>
+                    <a href='https://github.com/raytonlin1'><img class='logo' src='assets/imgs/github.png'></a>
+                    <a href='https://dmoj.ca/user/raytonlin1'><img class='logo' src='assets/imgs/dmoj.png'></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" style="border-bottom: 10px brown solid;">
+            <h1> Broken Form (No PHP/JS)</h1>
+            <form>
+                <input type="text" placeholder="Enter text...">
+                <button type="submit"> Submit </button>
+            </form>
+        </div>
+    </section>
+
     <p><a href="#top">Back to the top</a></p>
 </body>
 </html>

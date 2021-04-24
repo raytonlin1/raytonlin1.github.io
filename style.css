@@ -72,14 +72,20 @@ ul {
     color: blue;
     font-weight: bold;
     background-color: cadetblue;
-    border: brown 10px solid;
+    border-top: brown 10px solid;
+    border-bottom: brown 10px solid;
+    border-left: brown 20px solid;
+    border-right: brown 20px solid;
 }
 
 .Interests {
     color: maroon;
     font-weight: bold;
     background-color: cadetblue;
-    border: brown 10px solid;
+    border-top: brown 10px solid;
+    border-bottom: brown 20px solid;
+    border-left: brown 20px solid;
+    border-right: brown 20px solid;
 }
 
 .logo {
@@ -98,7 +104,7 @@ ul {
 
 #raytondesc {
     color: blue;
-    background-color: gold;
+    background-color: beige;
     border: brown 10px solid;
 }
 
@@ -108,24 +114,45 @@ ul {
 
 #forrecruiters {
     background-color: rgb(57, 201, 201);
+    border: brown 10px solid;
+}
+
+#pwp {
+    border-top: brown 10px solid;
+    border-left: brown 10px solid;
+    border-right: brown 10px solid;
+    border-bottom: brown 20px solid
 }
 
 #profiles {
+    background-color: cyan;
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: flex-end;
+    border-left: brown 10px solid;
+    border-right: brown 10px solid;
 }
 
 #top {
     text-align: center;
     font-weight: bold;
-    background-color: rgb(231, 116, 116);
-    border: brown 10px solid;
+    background-color: cyan;
+    border-top: brown 10px solid;
+    border-bottom: brown 10px solid;
+    border-left: brown 20px solid;
+    border-right: brown 20px solid;
 }
 
 .logo:hover {
     width: 70px;
+}
+
+#formex {
+    background-color: beige;
+    border-top: brown 20px solid;
+    border-left: brown 10px solid;
+    border-right: brown 10px solid;
 }
 
 p {

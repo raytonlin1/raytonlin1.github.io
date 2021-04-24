@@ -18,7 +18,7 @@ header {
     font-size: 15px; 
     text-align: center;
     padding: 5px;
-    float:left;
+    float: left;
     border: black 7px solid;
 }
 
@@ -60,14 +60,6 @@ header a:hover {
     font-size: 20px;
 }
 
-ul {
-    text-align: left;
-}
-
-.ulcss {
-    margin-left: 700px;
-}
-
 .Facts {
     color: blue;
     font-weight: bold;
@@ -94,7 +86,7 @@ ul {
     transition: all 0.5s;
 }
 
-.container {
+.container2 {
     width: 100%;
     margin: auto;
     text-align: center;
@@ -158,4 +150,8 @@ ul {
 p {
     color: blue;
     font-family: "Times New Roman", Times, serif;
+}
+
+#bsbody {
+    background-color: beige;
 }

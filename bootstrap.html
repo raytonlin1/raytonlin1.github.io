@@ -44,19 +44,18 @@
     </div>
     <br>
     <div class="container" style="border-top: black 1px solid">  
-        <label> <h2 style = "color: rgb(42, 75, 50);"> Change the text box! (Right now it refreshes as I don't have a server)</h2> </label>
-        <form id="myForm" onsubmit="return addTextBox();">
+        <label> <h2> Change the text box!</h2> </label>
+        <form id="myForm">
             <div class="msg"></div>
             <div>
                 <input type="text" id="textboxtext" placeholder="Enter text...">
             </div>
-            <br>
-            <input class="button" type="submit" value="Submit">
         </form>
         <br>
-        <dl id="items">
-            <dd class="itemm" style = "float:left; background-color: lightgrey; font-weight: bold; padding: 2px; border: grey 2px solid;">[No Text]</li>
-        </dl>
+        <button id='submitbutton' onclick="changeTextBox()"> Submit </button>
+        <br> <br>
+        <div id="itemm" style = "background-color: lightgrey; font-weight: bold; padding: 2px; border: grey 2px solid;">[No Text]</div>
+
     </div>
     <br>
     <div class="container" style="border-top: black 1px solid">
@@ -88,6 +87,9 @@
             </tr>
         </table>
     </div>
+
+
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar</a>

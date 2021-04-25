@@ -16,9 +16,9 @@ function changeText(id) {
     }
 }
 
-function addTextBox() {
-    var items = document.getElementsByClassName('itemm');
-    for (var key in items) {
-        items[key].innerText = document.forms["myForm"]["textboxtext"].value;
-    }
+function changeTextBox() {
+    var item = document.getElementById('itemm');
+    var input = document.forms["myForm"]["textboxtext"].value;
+    item.innerHTML = input;
+    document.forms["myForm"]["textboxtext"].value = "";
 }

@@ -63,7 +63,7 @@ header a:hover {
 .Facts {
     color: blue;
     font-weight: bold;
-    background-color: cadetblue;
+    background-color: rgb(252, 229, 101);
     border-top: brown 10px solid;
     border-bottom: brown 10px solid;
     border-left: brown 20px solid;
@@ -71,9 +71,9 @@ header a:hover {
 }
 
 .Interests {
-    color: maroon;
+    color: rgb(245, 0, 0);
     font-weight: bold;
-    background-color: cadetblue;
+    background-color: lightgreen;
     border-top: brown 10px solid;
     border-bottom: brown 20px solid;
     border-left: brown 20px solid;
@@ -105,7 +105,7 @@ header a:hover {
 }
 
 #forrecruiters {
-    background-color: rgb(57, 201, 201);
+    background-color: lightgreen;
     border: brown 10px solid;
 }
 
@@ -117,7 +117,7 @@ header a:hover {
 }
 
 #profiles {
-    background-color: cyan;
+    background-color: rgb(252, 229, 101);
     display: flex;
     justify-content: center;
     text-align: center;
@@ -154,4 +154,8 @@ p {
 
 #bsbody {
     background-color: beige;
+}
+
+th {
+    font-weight: normal;
 }

@@ -19,6 +19,20 @@ function changeText(id) {
 function changeTextBox() {
     var item = document.getElementById('itemm');
     var input = document.forms["myForm"]["textboxtext"].value;
-    item.innerHTML = input;
-    document.forms["myForm"]["textboxtext"].value = "";
+    if (input) {
+        item.innerHTML = input;
+        document.forms["myForm"]["textboxtext"].value = "";
+        window.localStorage.setItem("textInput", item.innerHTML);
+    }
 }
+
+function main() {
+    var textInput = window.localStorage.getItem("textInput");
+    var item = document.getElementById('itemm');
+    console.log(localStorage);
+    if (textInput) {
+        item.innerHTML = textInput;
+    }
+}
+
+main();

@@ -145,12 +145,12 @@ header a:hover {
     border-right: brown 10px solid;
 }
 
-p {
-    color: blue;
-}
-
 #bsbody {
     background-color: beige;
+}
+
+p {
+    color: blue;
 }
 
 th {

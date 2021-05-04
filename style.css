@@ -1,13 +1,12 @@
 .bodycss {
-    background-color: burlywood;
+    background-image: url('https://i.stack.imgur.com/jGlzr.png');
     text-align: center;
 }
 
 header {
-    background-color: maroon;
+    background-color:  url('https://i.stack.imgur.com/jGlzr.png');
     padding: 50px 50px 50px 50px;
     min-height: 70px;
-    border-top: brown 10px solid;
     border-bottom: brown 10px solid;
     transition: all 0.5s;
 }
@@ -47,7 +46,6 @@ header nav {
     float: right;
     margin: 10px;
     padding: 10px;
-    background-color: orange;
 }
 
 header .highlight, header .current a{
